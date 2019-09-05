@@ -1,0 +1,85 @@
+
+.Home{
+    background-image: url("IMG_2381.JPG");
+    background-position: center;
+    background-size: cover;
+}
+body {
+    background-color: #07575B;
+    color: aquamarine;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+h1 {
+    background-color: darkblue;
+    font-size: 64px;
+    color: orangered;
+}
+header {
+    background-color: #66A5AD;
+}
+header::after {
+    content:'';
+    display: table;
+    clear: right;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    padding-right: 25px;
+}
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2 {
+   font-size: 128px;
+    color:skyblue;
+}
+.left {
+    color: #C4DFE6;
+    font-size: 22px;
+    font-family: 'open sans', sans-serif;
+    line-height: 2;
+    max-width:500px;
+    padding-left: 50px;
+    height: 100px;
+}
+.right {
+    float: right;
+    padding-right: 50px;
+    margin-top: -100px;
+}
+.email {
+    background-color: yellow;
+    color: black;
+}
+.phone {
+    background-color: red;
+    color: black;
+}
+.insta {
+    background-color: magenta;
+    color: black;
+}
+a {
+    font-size: 32px;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+#Resume {
+    font-size: 92px;
+    color: aquamarine;
+}
